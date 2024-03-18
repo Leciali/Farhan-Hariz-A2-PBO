@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class MLingkaran {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        Lingkaran Lingkaran1 = new Lingkaran(jejari);
+        Lingkaran l = new Lingkaran(jejari);
         System.out.print("Masukkan Nilai: ");
         double jejari = scan.nextDouble();
         System.out.println("Luas lingkarang adalah" + hitungLuas();
