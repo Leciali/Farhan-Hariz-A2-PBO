@@ -2,10 +2,16 @@
 /* Deskripsi : Kelas Abstrak, berisi abstraksi bangun datar */
 /* Nama / NIM : Farhan Hariz Abdurrahman / 24060122140144 */
 
-public class MLingkaran{
+import java.util.Scanner;
+
+public class MLingkaran {
     public static void main(String[] args){
-        Lingkaran l = new Lingkaran (10.2);
-        System.out.println("Luas lingkaran dengan" + 
-            "Jejari 10.2 satuan adalah" + l.hitungLuas());
+        Scanner scan = new Scanner(System.in);
+        Lingkaran Lingkaran1 = new Lingkaran(jejari);
+        System.out.print("Masukkan Nilai: ");
+        double jejari = scan.nextDouble();
+        System.out.println("Luas lingkarang adalah" + hitungLuas();
+
+        scan.close();
     }
 }
